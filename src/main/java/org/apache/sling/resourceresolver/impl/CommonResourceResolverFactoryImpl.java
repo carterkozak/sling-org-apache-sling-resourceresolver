@@ -90,7 +90,7 @@ public class CommonResourceResolverFactoryImpl implements ResourceResolverFactor
     /** Background thread handling disposing of resource resolver instances. */
     private final Thread refQueueThread;
 
-    private boolean logUnclosedResolvers;
+    private final boolean logUnclosedResolvers;
 
     private final Object optionalNamespaceMangler;
 
